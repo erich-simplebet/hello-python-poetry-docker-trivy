@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hello-python-poetry-docker-dependabot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "hello_python_poetry_docker_dependabot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pendulum = "^2.1.2"
+numpy = "^1.25.2"
+requests = "^2.31.0"
+boto3 = "^1.28.25"
+awscli = "^1.29.25"
+beautifulsoup4 = "^4.12.2"
+click = "^8.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
